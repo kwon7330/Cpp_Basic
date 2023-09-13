@@ -37,3 +37,5 @@ void AlpaNumber();
 void Structure();
 void CallByValue();
 void Enum();
+
+void PointerDefine();

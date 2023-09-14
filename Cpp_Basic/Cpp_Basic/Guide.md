@@ -1,28 +1,30 @@
-프로그래밍(네이밍) 표기법
-프로그래밍 언어에서는 대소문자를 구분한다.
-가독성과 연관되어 있다.
-변수, 함수 , 클래스 등의 이름을 정할 때 여러개의 영단어를 사용할 때 각각의 단어를 구분해 주기 위해서
-일반적인 문장 : Unreal engine function variable
+# 프로그래밍(네이밍) 표기법
+ - 프로그래밍 언어에서는 대소문자를 구분한다.
+ - 가독성과 연관되어 있다.
+ - 변수, 함수 , 클래스 등의 이름을 정할 때 여러개의 영단어를 사용할 때 각각의 단어를 구분해 주기 위해서
+ 
+#### 일반적인 문장 : Unreal engine function variable
 
-Snake Case : unreal_engine_function_variable
-Kebab Case : unreal-engine-function-varialble
-Camel Case : unrealEnginefunctionVariable
-Pascal Case : UnrealEngineFunctionVariable
+ - Snake Case : unreal_engine_function_variable
+ - Kebab Case : unreal-engine-function-varialble
+ - Camel Case : unrealEnginefunctionVariable
+ - Pascal Case : UnrealEngineFunctionVariable
 
-명령어, 예약어
-- c++에서 명령어로 사용되기로 약속한 (정해져있는) 구문.
-- 변수, 함수의 이름을 명령할 떄 당연히 예약어와 중복 되지 않도록 이름을 명령하여야 함.
+## 명령어, 예약어
+ 
+ -  c++에서 명령어로 사용되기로 약속한 (정해져있는) 구문.
+ -  변수, 함수의 이름을 명령할 떄 당연히 예약어와 중복 되지 않도록 이름을 명령하여야 함.
+##### 주석: 
+ - 실행되지 않는 설명 부분
 
-주석
-- 주석: 실행되지 않는 설명 부분
-
-데이터 종류 ( 값의 종류)
-- 숫자
+##### 데이터 종류 ( 값의 종류)
+ 
+ - 숫자
  - 정수형 타입
  - 실수형 타입
-- 문자
+ - 문자
 
-bit , byte
+## bit , byte
 8개의 bit가 모여서 1byte 가 된다. (상관관계)
 
 - bit : 컴퓨터 데이터의 최소 단위

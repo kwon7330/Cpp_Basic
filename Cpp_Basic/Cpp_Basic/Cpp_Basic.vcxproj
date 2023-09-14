@@ -142,6 +142,7 @@
     <ClCompile Include="Ch09_Dynamic.cpp" />
     <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
+    <ClCompile Include="MiniProject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ch10_Class.h" />

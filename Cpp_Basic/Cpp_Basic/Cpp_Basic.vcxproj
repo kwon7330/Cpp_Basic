@@ -139,6 +139,7 @@
     <ClCompile Include="Ch06_String.cpp" />
     <ClCompile Include="Ch07_Structure.cpp" />
     <ClCompile Include="Ch08_Pointer.cpp" />
+    <ClCompile Include="Ch09_Dynamic.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
   </ItemGroup>
   <ItemGroup>

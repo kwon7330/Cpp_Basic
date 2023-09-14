@@ -26,6 +26,7 @@ void Star2();
 
 void DefineArray();
 void TwoDimension();
+void BallInsert();
 void CountNumber();
 void LessNumber();
 void MissingNumber();
@@ -39,3 +40,5 @@ void CallByValue();
 void Enum();
 
 void PointerDefine();
+
+void DynamicVariable();

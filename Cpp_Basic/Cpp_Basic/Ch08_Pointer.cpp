@@ -5,21 +5,26 @@ void PointerDefine()
 	int a = 10;
 
 	cout << " a : " << a << "\n"; // 값이 출력된다.
-	cout << " &a : " << & a << "\n"; //&a : &(주소참조) 연산
+	cout << " &a : " << &a << "\n"; //&a : &(주소참조) 연산
 	int* pa = &a;	//포인터 변수에 주소값 대입
 
-	cout <<"pa + 1 :" << pa + 1 << "\n";
-	cout << "*pa +1 " << * pa + 1 << "\n";
-	cout << "*(pa+1)" << * (pa + 1) << "\n";
-	
-	
-	int** ppa = &pa; //포인터를 참조하는 포언터
 
-	cout << " pa : "<<pa << endl; // 주소가출력된다.
+	//cout <<"pa :" << pa << "\n";
+	//cout <<"pa + 1 :" << pa + 1 << "\n";// +1 은 자료형 만큼 건너뛰게된다.
+	//cout << "*pa +1 " << *pa + 1 << "\n";
+	//cout << "*(pa+1)" << *(pa + 1) << "\n";
+	
+	cout << " pa : "<< pa << endl; // 주소가출력된다.
 	cout << " *pa : " << * pa << endl; // 주소위치의 변수의 값을 출력한다.
+	cout << "&pa : " << &pa << endl;
+
+	int** ppa = &pa; //포인터를 참조하는 포언터
 	cout << " ppa : " << ppa << endl;
 	cout << " *ppa " << * ppa << endl;
 	cout << " ** ppa : " <<**ppa << endl;
+	cout << "&ppa : " << & ppa << endl;
+
+	
 
 	int Array[3] = { 1,5,9 };
 	cout << Array << "\n"; // Array 의 첫번째 칸의 주소

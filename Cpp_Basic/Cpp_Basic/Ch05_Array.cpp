@@ -64,3 +64,46 @@ void TwoDimension()
         }
     }
 }
+
+void BallInsert()
+{
+    int BasketCount;
+    cout << "바구니의 개술를 입력해주세요 : " << endl;
+    cin >> BasketCount;
+
+    int InsertCount;
+    cout << "공 넣는 횟수를 입력해 주세요 : " << endl;
+    cin >> InsertCount;
+
+    int* pBasket = new int[BasketCount];
+    int StartBasketNumber;
+    int EndBasketNumber;
+    int BallNumber;
+    cout << "시작 바구니 번호 :";
+    cin >> StartBasketNumber;
+
+    cout << "종료 바구니 번호 :";
+    cin >> EndBasketNumber;
+    cout << "넣어줄 공의 번호 : ";
+    cin >> BallNumber;
+
+    for (int i = 0; i < InsertCount; i++)
+    {
+        for (int j = StartBasketNumber-1; j <= EndBasketNumber-1; j++)
+        {
+            pBasket[j] = BallNumber;
+        }
+    }
+
+    for (int i = 0; i < BasketCount; i++)
+    {
+        cout << pBasket[i] << " ";
+    }
+
+    cout << endl;
+}
+
+void BallSwap()
+{
+
+}

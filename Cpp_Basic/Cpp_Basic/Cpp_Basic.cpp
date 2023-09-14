@@ -16,8 +16,10 @@ using namespace std; // std : standard 표준입출력
 int main()
 {
 	
-	PointerDefine();
 
-	return 0;
 
+BallInsert();
+
+
+	
 }

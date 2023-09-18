@@ -9,3 +9,8 @@ void Bike :: PrintTire()
 	
 }
 
+void Bike::Print()
+{
+	cout << "BikeClass" << endl;
+}
+

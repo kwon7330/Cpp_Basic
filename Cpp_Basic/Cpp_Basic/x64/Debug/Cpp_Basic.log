@@ -1,4 +1,7 @@
-﻿  Atv.cpp
+﻿  ArithMatic.cpp
+C:\Users\user\Cpp_PL\Cpp_Basic\Cpp_Basic\Cpp_Basic\ArithMatic.cpp(18,53): error C2761: 'Sum': redeclaration of member is not allowed
+C:\Users\user\Cpp_PL\Cpp_Basic\Cpp_Basic\Cpp_Basic\ArithMatic.cpp(19,1): error C2447: '{': missing function header (old-style formal list?)
+  Atv.cpp
+  Bike.cpp
   Cpp_Basic.cpp
   Generating Code...
-  Cpp_Basic.vcxproj -> C:\Users\user\Cpp_PL\Cpp_Basic\Cpp_Basic\x64\Debug\Cpp_Basic.exe

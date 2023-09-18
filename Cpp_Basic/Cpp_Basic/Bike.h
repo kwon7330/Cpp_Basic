@@ -7,5 +7,6 @@ class Bike
 public:
 	int Price=100000;
 	void PrintTire();
+	void Print();
 	
 };

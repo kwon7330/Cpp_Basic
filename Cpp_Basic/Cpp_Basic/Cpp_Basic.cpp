@@ -9,6 +9,8 @@
 #include "Animal.h"
 #include "Bike.h"
 #include "Atv.h"
+#include "ArithMatic.h"
+#include "Auto.h"
 # define PLUS (2+3)
 // std namespace 사용 정의
 using namespace std; // std : standard 표준입출력
@@ -41,6 +43,21 @@ int main()
 	cout << Moto.Price << "\n";
 	//Atv의 멤버 함수
 	Moto.PrintTire();
+
+	// 함수 오버로딩
+	
+	ArithMatic Expression;
+	Expression.Sum(50);
+	Expression.Sum(50.123f);
+	//Expression.Sum();
+
+	//함수 오버라이딩
+	Moto.Print();
+
+	//생성자가 명시적으로 선언
+	// 자식 클래스 선언 할때 명시적 선언
+	/*Auto Mobile();
+	Mobile().PrintPrice();*/
 
 	
 

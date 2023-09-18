@@ -5,6 +5,10 @@
 #include <iostream> // input/output stream
 #include "Cpp_Basic.h"
 #include "io.h"
+#include "Vehicle.h"
+#include "Animal.h"
+#include "Bike.h"
+#include "Atv.h"
 # define PLUS (2+3)
 // std namespace 사용 정의
 using namespace std; // std : standard 표준입출력
@@ -16,10 +20,29 @@ using namespace std; // std : standard 표준입출력
 int main()
 {
 	
+	// 정적선언
+	Vehicle Ray(2023, 12000000);
+	Ray.PrintPrice();
+	Ray.SetYear(2021);
+	Ray.PrintYear();
+	
+	cout << Ray.GetYear() << "\n";
 
-	Car Sonata(80);
-	Sonata.DriveVelocity();
-	Sonata.DriveTime();
+	// 동적선언
+	Animal* Dog = new Animal;
+	Dog->PrintFinger();
+
+	delete Dog;
+
+	//자식 클래스 생성
+	Atv Moto;
+	//상속받은 Bike class의 멤버함수
+	Moto.PrintTire();
+	cout << Moto.Price << "\n";
+	//Atv의 멤버 함수
+	Moto.PrintTire();
+
+	
 
 
 	

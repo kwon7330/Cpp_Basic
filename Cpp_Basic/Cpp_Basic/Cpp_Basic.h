@@ -27,6 +27,7 @@ void Star2();
 void DefineArray();
 void TwoDimension();
 void BallInsert();
+void BallSwap();
 void CountNumber();
 void LessNumber();
 void MissingNumber();

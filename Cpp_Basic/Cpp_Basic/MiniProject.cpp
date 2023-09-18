@@ -12,13 +12,15 @@ void BallInsert()
 
 	int* pBasket = new int[BasketCount];
 
-	for (int i = 0; i < BasketCount; i++) {
+	for (int i = 0; i < BasketCount; i++)
+	{
 		pBasket[i] = 0;
 	}
 
 	int StartBasketNumber, EndBasketNumber, BallNumber;
 
-	for (int i = 0; i < InsertCount; i++) {
+	for (int i = 0; i < InsertCount; i++) 
+	{
 
 		cout << "시작 바구니 번호 : ";
 		cin >> StartBasketNumber;
@@ -27,7 +29,8 @@ void BallInsert()
 		cout << "넣어줄 공 번호 : ";
 		cin >> BallNumber;
 
-		for (int j = StartBasketNumber - 1; j <= EndBasketNumber - 1; j++) {
+		for (int j = StartBasketNumber - 1; j <= EndBasketNumber - 1; j++)
+		{
 
 			pBasket[j] = BallNumber;
 
@@ -35,7 +38,8 @@ void BallInsert()
 
 	}
 
-	for (int i = 0; i < BasketCount; i++) {
+	for (int i = 0; i < BasketCount; i++) 
+	{
 		cout << pBasket[i] << ":";
 	}
 
@@ -78,3 +82,4 @@ void BallSwap()
 	}
 
 	cout << endl;
+}

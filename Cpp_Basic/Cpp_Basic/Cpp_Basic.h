@@ -43,3 +43,7 @@ void Enum();
 void PointerDefine();
 
 void DynamicVariable();
+
+void ArrayClass();
+void StringClass();
+void Vector();

@@ -68,6 +68,11 @@ int main()
 	Auto Mobile;
 	Auto Mobile2(8, 20000000);
 
+	cout << "---------------------" << "\n";
+	/*ArrayClass();
+	StringClass();*/
+	Vector();
+
 
 	
 

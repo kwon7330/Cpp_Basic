@@ -30,6 +30,9 @@ int main()
 	
 	cout << Ray.GetYear() << "\n";
 
+	Vehicle Sonata;
+	
+
 	// 동적선언
 	Animal* Dog = new Animal;
 	Dog->PrintFinger();
@@ -54,10 +57,17 @@ int main()
 	//함수 오버라이딩
 	Moto.Print();
 
+
+
+
 	//생성자가 명시적으로 선언
+	
 	// 자식 클래스 선언 할때 명시적 선언
-	/*Auto Mobile();
-	Mobile().PrintPrice();*/
+	
+	cout << "---------------------" << "\n";
+	Auto Mobile;
+	Auto Mobile2(8, 20000000);
+
 
 	
 

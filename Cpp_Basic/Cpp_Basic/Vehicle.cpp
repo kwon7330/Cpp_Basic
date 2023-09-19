@@ -2,6 +2,11 @@
 #include <iostream>
 using namespace std;
 
+Vehicle::Vehicle()
+{
+	cout << "Vehicle Constructor" <<endl;
+}
+
 Vehicle ::Vehicle(int _Year, int _Price)
 {
 	Year = _Year;

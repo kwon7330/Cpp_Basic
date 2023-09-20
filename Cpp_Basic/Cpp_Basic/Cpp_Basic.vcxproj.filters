@@ -90,6 +90,12 @@
     <ClCompile Include="Ch13_Vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ch14_Parent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch14_VirtualChild.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ch10_Class.h">
@@ -117,6 +123,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Auto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CH14_VirtualParent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CH14_VirtualChild.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

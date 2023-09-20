@@ -11,6 +11,8 @@
 #include "Atv.h"
 #include "ArithMatic.h"
 #include "Auto.h"
+#include "CH14_VirtualParent.h"
+#include "CH14_VirtualChild.h"
 # define PLUS (2+3)
 // std namespace 사용 정의
 using namespace std; // std : standard 표준입출력
@@ -73,6 +75,27 @@ int main()
 	StringClass();*/
 	Vector();
 
+	cout << "---------------------" << "\n";
+
+	VirtualParent* Parent = new VirtualParent;
+	VirtualChild* Child =  new VirtualChild;
+	Parent->PrintClass();
+	Child ->PrintClass(); //Overriding 작동
+
+	Parent = Child;
+
+	Parent->PrintClass();
+	
+	cout << "---------------------" << "\n";
+
+	VirtualParent2* Parent2 = new VirtualParent2;
+	VirtualChild2* Child2 = new VirtualChild2;
+	Parent2->PrintClass();
+	Child2->PrintClass(); //Overriding 작동
+
+	Parent2 = Child2;
+
+	Parent2->PrintClass();
 
 	
 

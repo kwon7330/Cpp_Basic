@@ -107,6 +107,14 @@ int main()
 	PureVirtualChild PureChild;
 	PureChild.PrintClass();
 
+	cout << "---------------------" << "\n";
+	
+	cout << SumNumber(3, 2) << "\n";
+	cout << SumNumber(3.231f, 5.645f) << "\n";
+
+	cout << SumType(10, 20) << "\n";
+	cout << SumType(20.56f, 30.63f) << "\n";
+
 	
 
 

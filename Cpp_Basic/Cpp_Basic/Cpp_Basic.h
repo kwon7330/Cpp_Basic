@@ -47,3 +47,10 @@ void DynamicVariable();
 void ArrayClass();
 void StringClass();
 void Vector();
+int SumNumber(int a,int b);
+float SumNumber(float a, float b);
+template <typename T>
+T SumType(T a, T b)
+{
+	return (a + b);
+}

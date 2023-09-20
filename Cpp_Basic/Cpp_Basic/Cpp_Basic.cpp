@@ -13,6 +13,8 @@
 #include "Auto.h"
 #include "CH14_VirtualParent.h"
 #include "CH14_VirtualChild.h"
+#include "Ch15_PureVirtual.h"
+#include "Ch15_PureVirtualChild.h"
 # define PLUS (2+3)
 // std namespace 사용 정의
 using namespace std; // std : standard 표준입출력
@@ -96,6 +98,14 @@ int main()
 	Parent2 = Child2;
 
 	Parent2->PrintClass();
+
+	cout << "---------------------" << "\n";
+
+	/*PureVirtualParent PureParent;*/ //=> 추상클래스는 단독으로 객체 생성 할수 없다.
+	
+	// 추상클래스를 상속받는 자식 클래스는 순수 가상함수를 재정의해야한다.
+	PureVirtualChild PureChild;
+	PureChild.PrintClass();
 
 	
 

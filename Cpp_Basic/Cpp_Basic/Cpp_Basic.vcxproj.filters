@@ -96,6 +96,9 @@
     <ClCompile Include="Ch14_VirtualChild.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CH15_PureVirtualChild.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ch10_Class.h">
@@ -129,6 +132,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CH14_VirtualChild.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ch15_PureVirtual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ch15_PureVirtualChild.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

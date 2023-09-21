@@ -153,6 +153,7 @@
     <ClCompile Include="Ch14_VirtualChild.cpp" />
     <ClCompile Include="CH15_PureVirtualChild.cpp" />
     <ClCompile Include="Ch16_Template.cpp" />
+    <ClCompile Include="Dice.cpp" />
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
     <ClCompile Include="MiniProject.cpp" />

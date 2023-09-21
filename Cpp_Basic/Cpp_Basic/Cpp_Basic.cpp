@@ -115,6 +115,8 @@ int main()
 	cout << SumType(10, 20) << "\n";
 	cout << SumType(20.56f, 30.63f) << "\n";
 
+	Dice(5,2,4,1);
+
 	
 
 
